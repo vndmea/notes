@@ -57,3 +57,13 @@
   + short_name
   + display: fullscreen, minimal-ui, standalone, browser
   + start_url
+  + icons
+  + background_color: 启动画面背景颜色
+  + theme_color: 启动画面状态栏、地址栏颜色   
+  > 兼容方案：通过 meta/link声明私有属性
++ 网站显示应用安装横幅条件
+  + 部署 manifest.json 且正确配置属性
+  + 注册 Service Worker
+  + 支持 HTTPS
+  + 用户同一浏览器间隔少于5分钟内访问
+  > 注意：Safari不支持应用安装横幅
