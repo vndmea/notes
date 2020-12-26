@@ -48,3 +48,12 @@
 + 搜索引擎
 
 ### web app manifest
++ 作用
+  + 有唯一的图标和名称与其他站点区分·
+  + 控制从主屏幕启动时的内容，避免生硬的过度
+  + 隐藏浏览器相关的UI
++ 属性
+  + name
+  + short_name
+  + display: fullscreen, minimal-ui, standalone, browser
+  + start_url
